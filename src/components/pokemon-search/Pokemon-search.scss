@@ -1,0 +1,28 @@
+.poke-name {
+  text-transform: capitalize;
+  background-color: transparent;
+  height: 2em;
+  border-radius: 1rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  height: 88.6vh;
+}
+
+.search-inputs {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 2rem;
+}
+
+.poke-name::placeholder {
+  color: white;
+  text-align: center;
+}
+
+.search-button {
+  background-color: transparent;
+}

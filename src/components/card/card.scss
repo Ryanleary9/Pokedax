@@ -1,0 +1,17 @@
+.card {
+  border: 2px solid grey;
+}
+
+.card-image {
+  height: 10rem;
+  width: 100%;
+}
+
+.card-name {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}

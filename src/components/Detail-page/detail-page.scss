@@ -1,0 +1,30 @@
+.poke-list {
+  height: 88.6vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.poke-image {
+  padding-top: 1rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+.poke-data {
+  display: flex;
+  gap: 3rem;
+}
+
+.poke-details {
+  display: flex;
+  justify-content: center;
+}
+
+.poke-name {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.poke-type {
+  text-transform: capitalize;
+}
